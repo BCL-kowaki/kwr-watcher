@@ -33,7 +33,7 @@ export default async function handler(req, res) {
 
 お名前: ${name}
 電話番号: ${phone}
-診断タイプ: ${diagnosisType}
+診断タイプ: 慎重堅実ウォッチャー
 
 送信日時: ${new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}
 
