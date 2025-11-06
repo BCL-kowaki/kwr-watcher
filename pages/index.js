@@ -267,6 +267,14 @@ export default function SMSAuthForm() {
                   LINEアプリを開いてご確認ください。
                 </p>
               </div>
+              <a
+                href="https://u28edw94.autosns.app/line"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full bg-[#06C755] text-white py-3 px-6 rounded-lg font-semibold hover:bg-[#05B048] transition shadow-md hover:shadow-lg"
+              >
+                LINEへ戻る
+              </a>
             </div>
           ) : (
             <>
@@ -291,7 +299,7 @@ export default function SMSAuthForm() {
                         onChange={(e) =>
                           setUserInfo({ ...userInfo, name: e.target.value })
                         }
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-[#333]"
                         placeholder="例）山田太郎"
                       />
                       <p className="mt-1 text-xs text-gray-500">
@@ -309,7 +317,7 @@ export default function SMSAuthForm() {
                         onChange={(e) =>
                           setUserInfo({ ...userInfo, phone: e.target.value })
                         }
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-[#333]"
                         placeholder="例）09012345678"
                       />
                       <p className="mt-1 text-xs text-gray-500">
@@ -358,7 +366,7 @@ export default function SMSAuthForm() {
                         onChange={(e) =>
                           setVerificationCode(e.target.value.replace(/\D/g, ""))
                         }
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg text-center text-2xl font-bold tracking-widest focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg text-center text-2xl font-bold tracking-widest focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-[#333]"
                         placeholder="000000"
                       />
                       <p className="mt-2 text-xs text-gray-500 text-center">
